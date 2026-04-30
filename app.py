@@ -5,11 +5,11 @@ import psycopg2
 import pandas as pd
 
 
-USER = st.secrets["postgres"]["USER"]
-PASSWORD = st.secrets["postgres"]["PASSWORD"]
-HOST = st.secrets["postgres"]["HOST"]
-PORT = st.secrets["postgres"]["PORT"]
-DBNAME = st.secrets["postgres"]["DBNAME"]
+USER = st.secrets["postgres"]["postgres.awulwjgyhjqxjcecfuwh"]
+PASSWORD = st.secrets["postgres"]["USIL-2026-$"]
+HOST = st.secrets["postgres"]["aws-1-us-east-1.pooler.supabase.com"]
+PORT = st.secrets["postgres"]["5432"]
+DBNAME = st.secrets["postgres"]["PC1-CC-Boris Estrada"]
 
 
 
